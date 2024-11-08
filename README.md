@@ -1,8 +1,30 @@
-# Send-Instagram-Messages-using-Python
-To send an Instagram message using Python, you must have an Instagram account and install the Instabot library in your Python virtual environment.
+# Send Instagram Messages using Python
 
-Install Instabot Package
+A simple script to send Instagram direct messages through Python.
 
-Instabot is a Python library that you can use to automate your Instagram account features using Python, which sends messages without opening your app. You can install this Python library using the following pip command:
+## Requirements
+- Python
+- Instabot library
 
+## Setup
+Install the package:
+```bash
 pip install instabot
+```
+## Usage
+Run the script:
+```bash
+python3 SendInstaMessage.py
+```
+The program will ask you for:
+
+Instagram username,\
+Password,\
+Message,\
+and
+Recipient username.
+
+That's all you need to get started.
+
+## Info
+Instabot is a Python library that you can use to automate your Instagram account features using Python, which sends messages without opening your app.

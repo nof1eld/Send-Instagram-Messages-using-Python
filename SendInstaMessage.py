@@ -1,5 +1,11 @@
 from instabot import Bot
 MyInstabot = Bot()
 
-MyInstabot.login(username="Sender's Your Username", password=" Sender's Account Password")
-MyInstabot.send_message("Hello Dear", ["Receiver's Username"])
+userName = input("Enter your account's username: ")
+passWord = input("Enter your account's password: ")
+message = input("Enter message: ")
+receiver = input("Enter receiver's username: ")
+print(userName, passWord)
+
+MyInstabot.login(username=userName, password=passWord)
+MyInstabot.send_message(message, [receiver])
